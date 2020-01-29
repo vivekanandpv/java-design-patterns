@@ -2,8 +2,6 @@ package Creational.Factory;
 
 public class FactoryDemo {
     public static void main(String[] args) {
-        TyreFactory tyreFactory = new TyreFactory();
-
         Tyre r15 = TyreFactory.createTyre(TyreType.R15);
         Tyre r17 = TyreFactory.createTyre(TyreType.R17);
         Tyre r19 = TyreFactory.createTyre(TyreType.R19);
